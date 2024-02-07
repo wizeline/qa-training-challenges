@@ -1,6 +1,24 @@
 
 # QA Mobile Automation
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Goals](#goals)
+- [TechStack](#tech-stack)
+  - [Tools](#tools)
+  - [Frameworks](#frameworks)
+  - [Extra Documentation](#extra-documentation)
+- [Getting Started](#getting-started)
+- [Mobile Set Up](#mobile-set-up)
+  - [iOS Setup](#ios-setup)
+  - [Android Setup](#android-setup)
+- [Mobile Project](#mobile-project)
+- [Mobile Automation Tasks](#mobile-automation-tasks)
+  - [Extra Considerations](#extra-considerations)
+- [Selectors](#selectors)
+- [FAQ](#faq)
+
 ## Introduction
 
 This challenge is aimed to anyone that wants to begin with Mobile Automation using Appium, Python and Behave (BDD).
@@ -82,12 +100,12 @@ npm install -g appium-doctor
 > Once installed executed `appium-doctor --ios` for iOS and `appium-doctor --android` to check the status of your mobile set up and find the missing tools required.
 
 
-## iOS Setup
+### iOS Setup
 1. Download and install [XCode](https://developer.apple.com/xcode/) from Mac AppStore or Web.
 2. Install required simulators:
    Launch Xcode and select **Xcode > Preferences > Components** to install the simulators that you might want to test against.
 
-## Android Setup
+### Android Setup
 
 1. Download and install [JAVA](https://www.oracle.com/java/technologies/downloads/) JDK.
 2. Set up the JAVA_HOME path:
@@ -177,7 +195,7 @@ We will simulate that the app is being tested in multiple environments, the deta
 
 > Note: If you have any doubt or questions remember you to ask your Mentor or ask on the QA community in the [#qa-mobile-experts](https://join.slack.com/share/enQtNjEzNjk4Nzg0NTA3NS1iZTFmOWE5NWZhZTgyODAxYmY1OWI1NGI0NjdkNTNkMDliZmM3MmZhNmI3Y2NhMWU5YmM3YzE4OGIzODZiODlh) channel in Slack.
 
-### Selectors
+## Selectors
 If there are no _element ID_, _acesibility ID_ or the  xpath of the element is too long; we recomend to use [Android UiSelector](https://developer.android.com/reference/android/support/test/uiautomator/UiSelector) and [iOS Predicates](http://appium.io/docs/en/writing-running-appium/ios/ios-predicate/).
 
 Read the following documentation for more detailed information about mobile [locators](https://kobiton.com/book/chapter-4-appium-locator-finding-strategies).
