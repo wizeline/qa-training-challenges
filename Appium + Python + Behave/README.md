@@ -1,8 +1,6 @@
 
 # QA Mobile Automation
 
-In this repo, you will find various mobile challenges that you can use to gain more knowledge about mobile automation.
-
 ## Introduction
 
 This challenge is aimed to anyone that wants to begin with Mobile Automation using Appium, Python and Behave (BDD).
