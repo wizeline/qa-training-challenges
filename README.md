@@ -1,12 +1,12 @@
 
-# QA Mobile Automation
+# QA Training Repos
 
-This repo is a summary of some mobile challenges that you can use to gain more knowledge about mobile automation.
+This repo is a summary of some challenges that you can use to gain more knowledge about automation.
 
 ## Introduction
 
 ```
-qa-mobile-challenge
+qa-training-challenge
 ├── Appium + Python + Behave/
 │   └── README.md
 └── FullStack + CodeceptJS/
