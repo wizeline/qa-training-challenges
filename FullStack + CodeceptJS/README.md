@@ -14,7 +14,7 @@
 - [FAQ](#faq)
 
 ## **Introduction**
-This repository is meant to be used as a checklist to gain knowledge and have a standard structure across all the projects.
+This repository is meant to be used as a checklist for the buddies and mentees in order to have a standard structure across all the projects that may require full stack (FrontEnd, Backend and Mobile) automation using CodeceptJS.
 
 ## **Goals**
 - Implement a design pattern and structured folders for frontend automation.
